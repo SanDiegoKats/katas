@@ -65,7 +65,7 @@ use it to define `map`, `filter`, etc. Define the following list functions using
 
 ##Kata 3 - Not Quite Lisp
 
-This kata comes from from [Advent Of Code](http://adventofcode.com/day/1), though
+This kata comes from [Advent Of Code](http://adventofcode.com/day/1), though
 we've changed the wording since it's no longer December.
 
 UPS is trying to deliver packages in a large apartment building, but they can't 
