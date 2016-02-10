@@ -61,7 +61,7 @@ use it to define `map`, `filter`, etc. Define the following list functions using
    an element of type `b`, and a list of elements of type `a`, then returns a list
    of type `b`
    * `inits`, which returns all of the initial segments of a list. For example:
-   `inits [1, 2, 3] = [[], [1], [1, 2], [1, 2, 3]]
+   `inits [1, 2, 3] = [[], [1], [1, 2], [1, 2, 3]]`
 
 ##Kata 3 - Not Quite Lisp
 
