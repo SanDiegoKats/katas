@@ -50,10 +50,8 @@ foldr :: (a -> b -> b) -> b -> [a] -> b
 
 1. Implement `foldr`.
 
-`foldr` is the basis for many of the most commonly know functions in FP. You can
-use it to define `map`, `filter`, etc.
-
-2. Define the following list functions using `foldr`
+2. `foldr` is the basis for many of the most commonly know functions in FP. You can
+use it to define `map`, `filter`, etc. Define the following list functions using `foldr`
    * `sum`, which calculates the sum of a list of integers
    * `length`, which returns the number of elements in a list
    * `minList` & `maxList`, which return the smallest and largest elements in a 
