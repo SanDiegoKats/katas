@@ -40,7 +40,7 @@ Folds are a family higher-order functions that process a data structure and buil
 up a return value. Many different data structures can be folded, but we'll focus
 on lists for now.
 
-The `foldr` (also known as `reduce`) function processes a list from right to left using an accumulator function
+The `foldr` function processes a list from right to left using an accumulator function
 and and initial value. In Haskell, the type of `foldr` (when constrained to lists)
 looks like this:
 
