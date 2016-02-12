@@ -48,10 +48,22 @@ looks like this:
 foldr :: (a -> b -> b) -> b -> [a] -> b
 ```
 
+The function `foldl` is very much like `foldr` but with a [few differences](https://
+wiki.haskell.org/Foldr_Foldl_Foldl'). Among those differences is the order of 
+arguments to the accumulator function, and the fact that the list is process 
+from left to right. The type of `foldl` looks like this:
+
+```
+foldl :: (b -> a -> b) -> b -> [a] -> b
+```
+
 1. Implement `foldr`.
 
-2. `foldr` is the basis for many of the most commonly know functions in FP. You can
+2. Implement `foldrl`
+
+3. Folds are the basis for many of the most commonly know functions in FP. You can
 use it to define `map`, `filter`, etc. Define the following list functions using `foldr`
+or `foldl`
    * `sum`, which calculates the sum of a list of integers
    * `length`, which returns the number of elements in a list
    * `minList` & `maxList`, which return the smallest and largest elements in a 
