@@ -24,7 +24,7 @@ If the phrase is in all capital letters, Bob responds 'Whoa, chill out!'.
 
 If the phrase is empty, Bob responds 'Fine. Be that way!'.
 
-For everything else, Bob responds 'Whatever'.
+For everything else, Bob responds 'Whatever.'.
 
 ### [Leap](http://exercism.io/exercises/haskell/leap/readme)
 
